@@ -9,11 +9,29 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/tvLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sample_locale" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnChangeDefaultLanguage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Check Default Language"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginTop="20dp"
+        android:text="@string/check_text_language"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,7 +45,7 @@
         android:layout_marginStart="44dp"
         android:layout_marginTop="36dp"
         android:layout_marginEnd="44dp"
-        android:hint="enter text and press button to check language"
+        android:hint="@string/hint_enter_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">

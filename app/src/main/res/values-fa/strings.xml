@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تشخیص زبان</string>
+    <string name="hint_enter_text">متن را وارد کنید و دکمه را فشار دهید تا زبان بررسی شود</string>
+    <string name="sample_locale">این یک متن تستی برای تشخیص زبان می باشد.</string>
+    <string name="check_text_language">زبان متن را بررسی کنید</string>
+</resources>
